@@ -1,7 +1,7 @@
 # iGCR-ACP: Identifying multi-target anticancer compounds using graph-based multitask learning of convolutional residual neural networks
 #### T-H Nguyen-Vo, Quang H. Trinh, Duy Pham, Loc Nguyen, and [B. P. Nguyen](https://homepages.ecs.vuw.ac.nz/~nguyenb5/about.html)∗
 
-![alt text](https://github.com/mldlproject/2022-iAMP-DL/blob/main/iGCR_APC_DL_abs.svg)
+![alt text](https://github.com/mldlproject/2022-iGCR-ACP/blob/main/iGCR_APC_DL_abs.svg)
 
 ## Motivation
 Short-length AMPs have been demonstrated to have intensified antimicrobial activities toward wider spectrums of microbes. Therefore, 
