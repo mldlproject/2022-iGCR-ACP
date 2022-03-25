@@ -4,21 +4,23 @@
 ![alt text](https://github.com/mldlproject/2022-iGCR-ACP/blob/main/iGCR_APC_DL_abs.svg)
 
 ## Motivation
-Short-length AMPs have been demonstrated to have intensified antimicrobial activities toward wider spectrums of microbes. Therefore, 
-exploration of novel and promising short AMPs is highly essential in developing various types of antimicrobial drugs or treatments. 
-Besides, experimental approaches, several computational approaches have been developed to improve screening efficiency. Although these 
-existing computational methods achieved satisfactory performance, there is a large room for model improvement. In this study, we proposed 
-iAMP-DL, a prediction framework for identifying short AMPs. The model was constructed using long short-term memory incorporated with 
-convolutional neural networks. To fairly assess the model performance, we compare our models with the existing state-of-the-art methods.
+The finding of promising anticancer compounds is vital in anticancer drug development. Recently, besides experimental
+approaches, several computational advances have been developed to assist experimental scientists to identify potential
+anticancer candidates. In this study, we proposed a computational framework called iGCR-ACP to predict anticancer
+compounds. The iGCR-ACP was developed using the NCI-60 dataset, one of the most reliable and well-known sources of
+chemical data characterized by screening results of hundreds of thousand compounds towards multiple cancer types. The
+iGCR-ACP is a downstream application of AdaShare architecture, a recently developed architecture in computer vision
+and TrimNet-derived molecular encoding scheme. This combination is novel and was first proposed in this study.
 
 ## Results
-The comparative analysis's results confirmed iAMP-DL's performance outperformed all existing state-of-the-art methods. Furthermore, the experiments 
-were repeated ten times to observe the variation in the prediction efficiency of our proposed method. The results demonstrated that the iAMP-DL is 
-an effective, robust, and stable framework that can be used to detect promising short-AMP.
-
+The
+iGCR-ACP’s robustness and stability were confirmed. The comparative analysis between the iGCR-ACP and two state-of-theart methods also suggests that 
+the architecture of iGCR-ACP is an effective architecture to deal with highly imbalanced datasets like the NCI-60. The results showed that the iGCR-ACP’s
+performance was competitive and it can be further improved by combining other molecular encoding schemes with distinctly adjusted versions of AdaShare architecture. 
+Our approach is the first combination between TrimNet-derived molecular encoding schemes and AdaShare-inspired architecture so that there is a large room for model improvement in not only this issue bualso diverse biological and pharmaceutical issues.
 
 ## Availability and implementation
-[Click here](https://github.com/quangnhbk/antimicrobialpeptides)
+Source code and data are available upon request.
 
 ## Web-based Application
 [Click here](http://45.117.83.253/problem_amp)
