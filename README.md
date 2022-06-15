@@ -7,23 +7,22 @@
 The finding of promising anticancer compounds is vital in anticancer drug development. Recently, besides experimental
 approaches, several computational advances have been developed to assist experimental scientists to identify potential
 anticancer candidates. In this study, we proposed a computational framework called iGCR-ACP to predict anticancer
-compounds. The iGCR-ACP was developed using the NCI-60 dataset, one of the most reliable and well-known sources of
-chemical data characterized by screening results of hundreds of thousand compounds towards multiple cancer types. The
-iGCR-ACP is a downstream application of AdaShare architecture, a recently developed architecture in computer vision
-and TrimNet-derived molecular encoding scheme. This combination is novel and was first proposed in this study.
+compounds. The iGCR-ACP was developed using the NCI-60 dataset, one of the most reliable and well-known sources of experimentally 
+verified compounds. From the dataset, compounds were screened across nine cancer types (panels), including breast, central
+nervous system, colon, leukemia, non-small cell lung, melanoma, ovarian, prostate, and renal, were collected. 
 
 ## Results
-The
-iGCR-ACP’s robustness and stability were confirmed. The comparative analysis between the iGCR-ACP and two state-of-theart methods also suggests that 
-the architecture of iGCR-ACP is an effective architecture to deal with highly imbalanced datasets like the NCI-60. The results showed that the iGCR-ACP’s
-performance was competitive and it can be further improved by combining other molecular encoding schemes with distinctly adjusted versions of AdaShare architecture. 
-Our approach is the first combination between TrimNet-derived molecular encoding schemes and AdaShare-inspired architecture so that there is a large room for model improvement in not only this issue bualso diverse biological and pharmaceutical issues.
+The area under the receiver operating characteristic (ROC) curve (AUCROC) values for all prediction tasks were over 0.95. For the area 
+under the precision-recall (PR) curve (AUCPR) values, the prediction task for the breast panel obtained the smallest AUCPR value of about 0.76 
+while those for the leukemia and colon panels achieved the greatest AUCPR values of about 0.80. The results showed that the iACP-GCR 
+is a robust and stable framework for determining compounds possessing anticancerous activities. Also, the comparative analysis
+demonstrated that our approach had achieved better performance compared to state-of-the-art methods.
 
 ## Availability and implementation
 Source code and data are available upon request.
 
 ## Web-based Application
-[Click here](http://45.117.83.253/problem_amp)
+[Click here]([http://45.117.83.253/problem_amp](http://103.130.219.193:5005/))
 
 ## Contact 
 [Go to contact information](https://homepages.ecs.vuw.ac.nz/~nguyenb5/contact.html)
