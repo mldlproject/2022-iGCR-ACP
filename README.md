@@ -22,7 +22,7 @@ demonstrated that our approach had achieved better performance compared to state
 Source code and data are available upon request.
 
 ## Web-based Application
-[Click here]([http://45.117.83.253/problem_amp](http://103.130.219.193:5005/))
+[Click here](http://103.130.219.193:5005/)
 
 ## Contact 
 [Go to contact information](https://homepages.ecs.vuw.ac.nz/~nguyenb5/contact.html)
