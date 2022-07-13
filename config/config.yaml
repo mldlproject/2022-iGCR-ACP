@@ -1,0 +1,27 @@
+# Path_data
+path_raw: '/content/drive/MyDrive/paper a Duy/GRN/data/raw_data'
+path_processed: '/content/drive/MyDrive/paper a Duy/GRN/data/processed_data'
+path_result: '/content/drive/MyDrive/paper a Duy/GRN/result'
+pre_process_data: False
+
+# path to saved 
+path_model: "checkpoints"
+save_ckpt: "./checkpoints/last_model.pth"
+
+# Training parameters
+epochs: 61
+batch_size: 256
+num_workers: 2
+
+# Optimizer configurations
+optimizer: "Adam"
+learning_rate: 0.0005
+
+# Parameters for model architectures
+tasks: ['BRE','CNS','COL','LEU','LNS','MEL','OVA','PRO','REN']
+layers: [2, 2, 2, 1]
+filt_sizes: [64, 128, 256, 256]
+
+# Other
+seed: 1
+device: cuda:1
