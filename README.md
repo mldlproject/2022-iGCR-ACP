@@ -1,5 +1,5 @@
-# iACP-GCR: Identifying multi-target anticancer compounds using multitask learning on graph convolutional residual neural networks
-#### T-H Nguyen-Vo, Trang T. T. Do, and [B. P. Nguyen](https://homepages.ecs.vuw.ac.nz/~nguyenb5/about.html)∗
+# iACP-GCR: Multitask Learning on Graph Convolutional Residual Neural Networks for Screening of Multi-target Anticancer Compounds
+#### T.-H Nguyen-Vo, Trang T. T. Do, and [B. P. Nguyen](https://homepages.ecs.vuw.ac.nz/~nguyenb5/about.html)∗
 
 ![alt text](https://github.com/mldlproject/2022-iACP-GCR/blob/main/iACP_GCR_abs.svg)
 
