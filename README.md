@@ -23,7 +23,7 @@ Source code and data are available upon request.
 
 ## Web-based Application
 - [Source 1](http://124.197.54.240:8005/)
-- [Source 2](http://47.72.176.217:8005/) 
+- [Source 2](http://124.197.54.240:8005/)
 
 ## Contact 
 [Go to contact information](https://homepages.ecs.vuw.ac.nz/~nguyenb5/contact.html)
