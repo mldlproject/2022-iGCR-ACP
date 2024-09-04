@@ -139,7 +139,7 @@ def validate(epoch, model, criterion, tasks, val_loader):
 
             # print(len(label_list))
             for i in range(len(tasks)):
-                if label_list[i] != 'None':
+                if 'None' not in label_list[i]:
                     y_label_list[i].extend(label_list[i])
                     y_pred_list[i].extend(pred_list[i])
         
@@ -167,7 +167,7 @@ def test(current_iter, model, tasks, test_loader):
 
             # print(len(label_list))
             for i in range(len(tasks)):
-                if label_list[i] != 'None':
+                if 'None' not in label_list[i]:
 
                     y_label_list[i].extend(label_list[i])
                     y_pred_list[i].extend(pred_list[i])
