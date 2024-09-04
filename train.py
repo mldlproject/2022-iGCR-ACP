@@ -16,10 +16,10 @@ def train(args):
     if args.pre_process_data:
         print("pre processing data")
         all_smiles, list_labels = pre_process(args.path_raw, args.tasks)
-        trainset, valset, testset = load_dataset(path=args.path_processed, all_smiles=all_smiles, list_labels=list_labels, seed=args.seed)
+        trainset, valset, testset = load_dataset(data_path=args.path_processed, all_smiles=all_smiles, list_labels=list_labels, seed=args.seed)
     else:
         print("Loading dataset")
-        trainset, valset, testset = load_dataset(path=args.path_processed, seed=args.seed)
+        trainset, valset, testset = load_dataset(data_path=args.path_processed, seed=args.seed)
     train_loader  = DataLoader(trainset, batch_size=args.batch_size, shuffle=True)
     val_loader    = DataLoader(valset, batch_size=args.batch_size, shuffle=False)
     test_loader   = DataLoader(testset, batch_size=args.batch_size, shuffle=False)
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
     parsed_args = parser.parse_args()
     with parsed_args.config as f:
-        params = yaml.load(f)
+        params = yaml.safe_load(f)
     args = parse_args(Munch(params), **vars(parsed_args))
     train(args)
     
